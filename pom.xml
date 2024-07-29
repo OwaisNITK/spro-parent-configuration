@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <groupId>com.techthinkers</groupId>
+  <artifactId>spro-parent-configuration</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <packaging>pom</packaging>
+  
+  <name>spro-parent-configuration</name>
+  <description>Parent Configuration Module for Spring Boot 3 Profressional Project</description>
+  
+  <contributors>
+	<contributor>
+	  <name>Owais Khan</name>
+	  <email>owais.nitk@gmail.com</email>
+  	</contributor>	
+  </contributors>
+
+  	<scm>
+		<connection>scm:git:git@github.com:OwaisNITK/spro-parent-config.git</connection>
+		<developerConnection>scm:git:git@github.com:OwaisNITK/spro-parent-config.gitt</developerConnection>
+		<tag>HEAD</tag>
+	</scm>
+
+	<properties>
+		<java-version>21</java-version>
+		<lommbok.version>21</lommbok.version>
+		<spring-cloud-dependencies.version>2021.0.8</spring-cloud-dependencies.version>
+		<spring-cloud-starter-openfeign.version>3.1.8</spring-cloud-starter-openfeign.version>
+		<feign-httpclient.version>8.18.0</feign-httpclient.version>
+		<commons-io.version>2.15.1</commons-io.version>
+		<mapstruct.version>1.5.5.Final</mapstruct.version>
+		<springdoc.openapi.version>1.7.0</springdoc.openapi.version>
+	</properties>
+
+	<parent>
+		<groupId>org.springframework.boot</groupId>
+		<artifactId>spring-boot-starter-parent</artifactId>
+		<version>3.3.2</version>
+		<relativePath/> <!-- lookup parent from repository -->
+	</parent>
+
+
+
+</project>
